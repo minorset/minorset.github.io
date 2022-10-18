@@ -1,7 +1,195 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Nuutti Alfthan | Digital Designer</title>
+        <style>
+
+            html {
+                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+                font-size: 24px;
+                line-height: 1.5em;
+                max-width: 400px;
+                padding: 10px;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        
+            h1, h2 {
+                font-weight: 600;
+                margin: 0;
+                color: #808080;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                font-size: 0.75rem;
+            }
+        
+            h1, h2, p {
+                margin: 0;
+            }
+        
+            p {
+                margin-bottom: 1.5rem;
+            }
+        
+            a {
+                color: black;
+                text-decoration: none;
+                border-bottom: 2px dotted currentColor;
+                transition: color 150ms ease-in-out;
+            }
+        
+            i {
+                color: #808080;
+                font-style: normal;
+            }
+        
+            a:hover,
+            a:focus {
+                color: #808080;
+                transition: 0ms;
+            }
+        
+            a:visited {
+                color: #808080;
+            }
+        
+            a:hover:visited,
+            a:focus:visited {
+                color: black;
+                transition: 0ms;
+            }
+        
+            ul {
+                list-style-type: none;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                font-size: 0;
+                line-height: 0;
+            }
+        
+            li {
+                font-size: 24px;
+                line-height: 1.5em;
+                margin-bottom: 1.5em;
+                vertical-align: top;
+            }
+        
+            .mt3 {
+                margin-top: 3em;
+            }
+        
+            .tile {
+                display: block;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                left: -3%;
+                transition: 300ms transform cubic-bezier(0, 0, 0, 1);
+            }
+        
+            .tile a,
+            .tile img {
+                display: block;
+                width: 100%;
+                height: auto;
+                border: none;
+            }
+        
+            .tile:hover,
+            .tile:focus {
+                transform: translate3d(0, -10px, 0);
+            }
+        
+            .tile:hover:after,
+            .tile:focus:after {
+                content: '';
+                display: block;
+                position: absolute;
+                height: 10px;
+                top: 100%;
+                left: 0;
+                right: 0;
+            }
+        
+            @media (min-width: 600px) {
+                html {
+                    margin: 2rem;
+                }
+            }
+        
+            @media (min-width: 800px) {
+                html {
+                    margin: 6rem 4rem;
+                    max-width: 1200px;
+                }
+        
+                li {
+                    display: inline-block;
+                    width: calc(50% - 1rem);
+                    padding-right: 1rem;
+                }
+        
+                .content-container {
+                    max-width: 400px;
+                }
+            }
+        
+            @media (min-width: 1200px) {
+                .tile {
+                    width: 500px;
+                    height: 319px;
+                    left: -4%;
+                }
+            }
+        
+            @media (min-width: 600px) {
+                p a,
+                p span {
+                    display: inline;
+                }
+            }
+        
+            @media (max-width: 799px) {
+                p span {
+                    display: block;
+                    font-size: 0;
+                    line-height: 0;
+                }
+            }
+        
+        </style>
+        </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <main>
+		<h1>Nuutti Alfthan</h1>
+		<p>
+			<a href="mailto:nuutti.alfthan@gmail.com">nuutti.alfthan@gmail.com</a> <span>✦</span> <a target="_blank" href="https://www.are.na/nuutti-alfthan">are.na</a> <span>✦</span> <a target="_blank" href="https://www.instagram.com/aallfftthhaann">instagram</a>
+		</p>
+
+		<p>Advanced pimpelipompeli designer doing business in Helsinki, Finland.</p>
+
+		<h2 class="mt3">Recent Work</h2>
+
+		<ul>
+			<li>
+				<div class="content-container">
+					<div class="tile">
+						<a target="_blank" href="https://suomi-japani.net">
+							<img
+								src="/content/SJY.png"
+							/>
+						</a>
+					</div>
+					<p>
+						<a target="_blank" href="https://suomi-japani.net">Suomalais-Japanilainen Yhdistys</a><br/>
+						Wordpress, Elementor.
+					</p>
+				</div>
+			</li>
+        </ul>
+    </main>
 </body>
 </html>
