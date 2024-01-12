@@ -209,4 +209,12 @@ ol {
         font-size: 0;
         line-height: 0;
     }
+
+    ul {
+        width: 94%;
+    }
+
+    ol {
+        width: 94%;
+    }
 }
